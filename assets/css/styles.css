@@ -365,8 +365,8 @@ img {
 }
 
 .home__social {
-    position: absolute;
     height: max-content;
+    position: absolute;
     left: -3rem;
     top: 0;
     bottom: 0;
@@ -381,6 +381,10 @@ img {
     color: var(--white-color);
     font-size: 1.25rem;
     padding: 6px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
