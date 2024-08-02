@@ -366,8 +366,11 @@ img {
 
 .home__social {
     position: absolute;
+    height: max-content;
     left: -3rem;
     top: 0;
+    bottom: 0;
+    margin: auto 0;
     display: flex;
     flex-direction: column;
 }
